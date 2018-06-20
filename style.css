@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+body  {
+  margin: 0;
+  font-family: 'Ariel', sans-serif;
+  /* changing font size use ems which is a percentage of the font */
+  font-size: 1.10em;
+}
+header {
+  /* how do we make the height specific to devices */
+  min-height:100vh;
+  background-image: url(
+  "https://www.thenation.com/wp-content/uploads/2018/04/russell-westbrook-rtr_img.jpg");
+  background-size: cover;
+  
+}
+nav {
+  background-color:purple;
+  position: fixed;
+  width: 100%;
+}
+
+nav a {
+  color:white;
+  text-decoration: none;
+}
+
+nav li {
+  display: inline-block;
+  padding:  1em;
+}
+nav ul {
+  margin:0;
+}
+header main {
+  padding-top: 3em;
+  text-align:center;
+  font-size: 1.25em;
+}
+h1  {
+  /* if you wanted to change case */
+  /* text-transform: uppercase; */
+  font-size:2.0em;
+  letter-spacing: 0.4em;
+  /* text-shadow: 0 1px grey; */
+}
+header img{
+  /* padding: 1em; */
+  padding-top: 2em;
+  width: 15%;
+  border-radius: 20%;
+  border: 12px purple solid;
+}
+
+	
+}
+.about-me {
+  padding: 1em;
+  line-height: 1.25;
+  background-color: #c44dff;
+  /* background-image: url( */
+  /* "https://sports.mb.com.ph/wp-content/uploads/2018/04/AP18114141213485.jpg"); */
+  /* background-size: cover; */
+}
+
+.content {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.projects{
+  color: white;
+  padding: 3em 0; 
+  background-image: url("https://www.nba.com/suns/sites/suns/files/styles/story_main_photo/public/nash-hall-of-fame.jpg?itok=4IMJ1GBi");
+  background-size: cover;)
+}
+
+.projects img {
+  width:30%;
+  padding: 30px 30px 30px 0;
+}
+
+@media only screen and (max-width: 770px) {
+  header img {
+    width: 300px;
+  }
+}
